@@ -33,8 +33,8 @@ clean() {
 }
 
 install() {
-    git config filter.oc-private.smudge "${SCRIPT_PATH} smudge %f";
-    git config filter.oc-private.clean "${SCRIPT_PATH} clean %f";
+    git config filter.ocprivate.smudge "${SCRIPT_PATH} smudge %f";
+    git config filter.ocprivate.clean "${SCRIPT_PATH} clean %f";
 }
 
 main() {
